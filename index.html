@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>iTunesDRP</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+  </head>
+  <body>
+    <div style="width: 990px; height: 350px; border-radius: 15px; background-color: #ffffff;">
+      <div class="topbar">
+        <img src="./src/img/minimize.svg" style="height: 30px; width: 30px; -webkit-app-region: no-drag;" id="min-btn" onClick="minimize();">
+        <img src="./src/img/cross.svg" style="height: 30px; width: 30px; -webkit-app-region: no-drag;" id="cross-btn" onClick="window.close();">
+    </div>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+    <script>
+    </script>
+  </body>
+</html>
