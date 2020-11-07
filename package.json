@@ -13,7 +13,11 @@
     "child_process": "^1.0.2",
     "custom-electron-titlebar": "^3.2.5",
     "discord-rich-presence": "0.0.8",
+    "discord-rpc": "^3.1.4",
+    "iconv-lite": "^0.6.2",
     "itunes-bridge": "^0.6.4",
+    "node-itunes-search": "^1.2.2",
+    "searchitunes": "^2.4.0",
     "utf8": "^3.0.0"
   },
   "devDependencies": {
